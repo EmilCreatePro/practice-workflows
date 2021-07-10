@@ -1,0 +1,17 @@
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - main
+  schedule:
+    */5 * * * *
+
+jobs:
+  my-job:
+    name: ProcessWorkflowJob
+    runs-on: ubuntu-latest
+    steps:
+      - name: Process Workflow
+        run: queryGithub.py
+        shell: python3
