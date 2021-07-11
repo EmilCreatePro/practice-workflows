@@ -5,8 +5,6 @@ import requests
 URL = "https://www.githubstatus.com/"
 page = requests.get(URL)
 
-#print(page.text)
-
 words_to_search = 'All Systems Operational'
 
 if(words_to_search in page.text):
