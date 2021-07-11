@@ -1,0 +1,1 @@
+[![.github/workflows/main.yml](https://github.com/EmilCreatePro/practice-workflows/actions/workflows/main.yml/badge.svg)](https://github.com/EmilCreatePro/practice-workflows/actions/workflows/main.yml)
