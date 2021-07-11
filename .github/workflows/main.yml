@@ -13,5 +13,4 @@ jobs:
     name: ProcessWorkflowJob
     runs-on: ubuntu-latest
     steps:
-      - run: ../../queryGithub.py
-        shell: python
+      - run: python3 ../../queryGithub.py
