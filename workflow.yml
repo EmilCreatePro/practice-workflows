@@ -1,9 +1,10 @@
 on:
-  # Trigger the workflow on push or pull request,
+  # Trigger the workflow on push
   # but only for the main branch
   push:
     branches:
       - main
+  # schedule to run every 5 minutes
   schedule:
     */5 * * * *
 

@@ -12,7 +12,8 @@ words_to_search = 'All Systems Operational'
 if(words_to_search in page.text):
     print('Text found!!')
 else:
-    print('Text NOT found!')
+    #print('Text NOT found!')
+    raise Exception('Text NOT found!')
 
 '''
 import time
