@@ -3,7 +3,7 @@ on:
   # but only for the main branch
   push:
     branches:
-      - main
+      - master
   # schedule to run every 5 minutes
   schedule:
     - cron: '*/5 * * * *'
